@@ -15,5 +15,9 @@ Python file analyse.py is used for creating the graphs that analyse different cr
 
 For more info check the info tab in Netlogo.
 
+## Example
+![Screenshot2](https://user-images.githubusercontent.com/43953664/152406416-f8ff0672-8f93-4c5b-a72c-5e648c3d63a3.png)
+
+
 ## Netlogo
 Netlogo download link: https://ccl.northwestern.edu/netlogo/download.shtml
