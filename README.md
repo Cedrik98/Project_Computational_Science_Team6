@@ -1,10 +1,10 @@
 # Project_Computational_Science_Team6
 
 ## Dependencies
-pandas \\
-numpy \\
-seaborn \\
-matplotlib.pyplot \\
+pandas <br />
+numpy <br />
+seaborn <br />
+matplotlib.pyplot
 
 ## The model
 This project simulates a festival where people dance, go to the bar or visited the toilet.
