@@ -14,6 +14,8 @@ The run the model open the .nlogo file in Netlogo. Click on 'setup', 'go' and wa
 Python file analyse.py is used for creating the graphs that analyse different crowd sizes and different amount of people vaccinated.
 
 For more info check the info tab in Netlogo.
+## Plots
+To get the plots we got run the behaviour space under tools. Select the Analyse/Mode_output directory as the location for the .csv files
 
 ## Example
 ![Screenshot2](https://user-images.githubusercontent.com/43953664/152406416-f8ff0672-8f93-4c5b-a72c-5e648c3d63a3.png)
