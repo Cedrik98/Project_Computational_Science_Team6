@@ -306,17 +306,17 @@ crowd-size
 crowd-size
 0
 400
-399.0
+10000.0
 1
 1
 NIL
 HORIZONTAL
 
 MONITOR
-1215
-11
-1355
-56
+866
+253
+1006
+298
 Number of infected
 number-of-infected
 17
@@ -324,10 +324,10 @@ number-of-infected
 11
 
 MONITOR
-1215
-72
-1398
-117
+866
+314
+1049
+359
 Number of healthy people
 number-of-healthy
 17
@@ -346,10 +346,10 @@ Show-place-of-infection
 -1000
 
 MONITOR
-1218
-130
-1295
-175
+869
+372
+946
+417
 R number
 r-number
 2
@@ -376,7 +376,7 @@ HORIZONTAL
 
 This model simulates a festival where a starting group is infected with a virus. The purple section is the bar. The blue section is the male toilet. The pink section is the female toilet. The yellow section is the dance floor. The turtles move according to their mood from one locatie to the other. While they move are at the festival they can contract the virus.
 
-The model is 100 meters per 100 meters. On tick in our model is one second in real life. The turtles walk at an average walking speed, 3.7 per tick which comes down to 5km per hour. The average size from shoulder to shoulder is 0.37m. A turtles is size 1 so a turtle can be infected with in a radius of 4 ( 1.5 meters). The starting infected are always 6% of the total crowd. This is based on studies of corona at festivals. The infectiousness number is also based on these studies. More is explained in our report. The protection number is based on the current knowledge on vaccines. Different vaccines have different protection so between 60% and 90%
+The model is 100 meters per 100 meters. On tick in our model is one minute in real life. The turtles walk at an average walking speed, 3.7 per tick which comes down to 0.222km per hour. This slow speed accounts for people standing still. The average size from shoulder to shoulder is 0.37m. A turtles is size 1 so a turtle can be infected with in a radius of 4 ( 1.5 meters). The starting infected are always 6% of the total crowd. This is based on studies of corona at festivals. The infectiousness number is also based on these studies. More is explained in our report. The protection number is based on the current knowledge on vaccines. Different vaccines have different protection so between 60% and 90%
 
 ## HOW IT WORKS
  
@@ -996,6 +996,21 @@ NetLogo 6.2.2
     </enumeratedValueSet>
     <enumeratedValueSet variable="crowd-size">
       <value value="2000"/>
+    </enumeratedValueSet>
+  </experiment>
+  <experiment name="experiment" repetitions="1" runMetricsEveryStep="true">
+    <setup>setup</setup>
+    <go>go</go>
+    <timeLimit steps="150"/>
+    <metric>r-number</metric>
+    <enumeratedValueSet variable="percentage-vacinated">
+      <value value="70.6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Show-place-of-infection">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="crowd-size">
+      <value value="10000"/>
     </enumeratedValueSet>
   </experiment>
 </experiments>

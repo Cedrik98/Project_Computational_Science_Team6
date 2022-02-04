@@ -392,7 +392,7 @@ HORIZONTAL
 
 This model simulates a festival where a starting group is infected with a virus. The purple section is the bar. The blue section is the male toilet. The pink section is the female toilet. The yellow section is the dance floor. The turtles move according to their mood from one locatie to the other. While they move are at the festival they can contract the virus.
 
-The model is 100 meters per 100 meters. On tick in our model is one second in real life. The turtles walk at an average walking speed, 3.7 per tick which comes down to 5km per hour. The average size from shoulder to shoulder is 0.37m. A turtles is size 1 so a turtle can be infected with in a radius of 4 ( 1.5 meters). The starting infected are always 6% of the total crowd. This is based on studies of corona at festivals. The infectiousness number is also based on these studies. More is explained in our report. The protection number is based on the current knowledge on vaccines. Different vaccines have different protection so between 60% and 90%
+The model is 100 meters per 100 meters. On tick in our model is one minute in real life. The turtles walk at an average walking speed, 3.7 per tick which comes down to 0.222km per hour. This slow speed accounts for people standing still. The average size from shoulder to shoulder is 0.37m. A turtles is size 1 so a turtle can be infected with in a radius of 4 ( 1.5 meters). The starting infected are always 6% of the total crowd. This is based on studies of corona at festivals. The infectiousness number is also based on these studies. More is explained in our report. The protection number is based on the current knowledge on vaccines. Different vaccines have different protection so between 60% and 90%
 
 ## HOW IT WORKS
  
